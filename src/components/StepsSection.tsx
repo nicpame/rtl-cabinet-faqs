@@ -44,8 +44,16 @@ export const StepsSection = () => {
         
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
           {steps.map((step) => (
-            <Card key={step.id} className="bg-white rounded-lg overflow-hidden hover:shadow-lg transition-shadow duration-300">
-              <div className="p-6">
+            <Card 
+              key={step.id} 
+              className="bg-white rounded-lg overflow-hidden hover:shadow-lg transition-shadow duration-300 relative"
+              style={{
+                backgroundImage: `url('/lovable-uploads/84a4311c-4b88-4c6a-bfa9-053d2789d452.png')`,
+                backgroundSize: 'cover',
+                backgroundPosition: 'center'
+              }}
+            >
+              <div className="p-6 relative z-10 bg-white bg-opacity-90 h-full transition-all duration-300 hover:bg-opacity-95">
                 <div className="relative h-48 mb-6">
                   <img
                     src={step.image}
