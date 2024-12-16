@@ -33,16 +33,8 @@ const steps = [
 
 export const StepsSection = () => {
   return (
-    <section className="bg-[#1D4B4F] py-16 relative overflow-hidden" dir="rtl">
-      {/* Background Image with Animation */}
-      <div 
-        className="absolute inset-0 opacity-10 animate-fade-in bg-no-repeat bg-center bg-contain"
-        style={{
-          backgroundImage: `url('/lovable-uploads/9f01d320-7cd9-47c7-966b-a4817243b002.png')`,
-        }}
-      />
-      
-      <div className="container mx-auto px-4 relative z-10">
+    <section className="bg-[#1D4B4F] py-16" dir="rtl">
+      <div className="container mx-auto px-4">
         <h2 className="text-center text-3xl font-bold text-white mb-4">
           Novin Cabin
         </h2>
