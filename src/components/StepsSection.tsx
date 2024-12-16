@@ -55,11 +55,6 @@ export const StepsSection = () => {
             >
               <div className="p-6 relative z-10 bg-white bg-opacity-90 h-full transition-all duration-300 hover:bg-opacity-95">
                 <div className="relative h-48 mb-6">
-                  <img
-                    src={step.image}
-                    alt={step.title}
-                    className="w-full h-full object-contain"
-                  />
                   <div className="absolute bottom-0 right-0 text-[100px] font-bold text-[#E5E5E5] opacity-30 leading-none">
                     {step.number}
                   </div>
